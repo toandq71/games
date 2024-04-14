@@ -1,0 +1,517 @@
+.top_banner{
+    margin-top: 25px;
+    padding: 0 15px;
+}
+.top_banner img{
+    max-width: 490px;
+    width: 100%;
+}
+
+.wrap_canvas {
+    width: 100%;
+    max-width: 505px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    font-size: 0;
+}
+.wrap_canvas #canvas{
+    max-width: 100%;
+    /* max-width: 505px; */
+    margin: 0 auto;;
+}
+.wrap_canvas .btn-text-top {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-weight: normal;
+    font-size: 15px;
+    margin-top: -85px;
+}
+.content-text-center p{
+    display: none;
+}
+.overlay .content-text-center p{
+    font-size:15px;
+    font-weight: normal;
+    margin-bottom: 0;
+    color: #fff;
+    text-indent: initial;
+    display: block;
+    margin: 0px 0;
+}
+.content-text-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    margin-top: -5px;
+}
+.content-text-center .btn_quay2,
+.content-text-center .btn_quay2:focus {
+    width: 100px;
+    height: 110px;
+    background: url(../images/btn-quay.png) no-repeat center center;
+    border: 0;
+    outline: none;
+    background-size: cover;
+    z-index: 2;
+    margin-left: 0.5px;
+    margin-top: 20px;
+}
+
+.wrap_gift{
+    text-align: center;
+    position: relative;
+}
+.wrap_gift.hasgift::after{
+    position: absolute;
+    left: 0;
+    top: -120px;
+    bottom: 0;
+    right: 0;
+    content: '';
+    background:url(../images/choa.png) no-repeat top center;
+    background-size: 130% auto;
+    z-index: 1;
+}
+.wrap_gift .main-gift{
+    margin: 0 auto;
+    /* height: 350px; */
+    z-index: 2;
+    position: relative;
+    
+}
+.wrap_gift .main-gift img.gift{
+/*    max-width: 100%;
+    margin-top: -50px;*/
+    max-width: 100%;
+    margin-top: -50px;
+    padding: 50px 0px 20px 0px;
+    height: 270px;
+}
+.wrap_gift img.congrats{
+    width: 310px;
+    margin-top: -65px;
+    z-index: 2;
+    position: relative;
+}
+.wrap_gift .gift-content{
+    padding: 15px;
+    /*margin-top: -125px;*/
+    color: #fff;
+}
+.wrap_gift .gift-content p{
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+.wrap_gift .gift-content p.title{
+    color: #fff;
+}
+.wrap_gift .gift-content p.hash_code{
+    font-size: 12px;
+    word-break: break-all;
+    padding: 0 10px;
+    max-width: 375px;
+    margin: 0 auto;
+    color: #fff;
+    opacity: 0.7;
+}
+.wrap_gift .gift-content p b{
+    text-transform: uppercase;
+}
+.wrap_gift .gift-content h3.prize_name{
+    text-transform: uppercase;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-top: 10px
+}
+.wrap_gift .gift-content .btn-open, .wrap_gift .gift-content .btn-open:hover, .wrap_gift .gift-content .btn-open:focus, .wrap_gift .gift-content .btn-open:visited{
+    display: inline-block;
+    margin: 0 auto;
+    height: 57px;
+    line-height: 57px;
+    width: 289px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #D02149;
+    box-shadow: 0 12px 19px 0 rgba(208,33,73,0.3);
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 10px
+}
+.content-wrapper{
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+.btn-your-gift{
+    position: absolute;
+    right: 12px;
+    width: 100px;
+    bottom: 45px;
+}
+.btn-your-gift img{
+    max-width: 100%;
+}
+.count_spin{
+    text-align: center;
+    color: #fff;;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        html body .content.app-content.result{
+            padding-bottom: 80px;
+            background-size: 165% !important;
+        }
+        html body .content.app-content{
+            padding-bottom: 80px;
+            background-size: 200% !important;
+            background: url(../images/footer-spin.png) no-repeat 40% bottom;
+        }
+        .top_banner{
+            margin-top: 15px;
+        }
+        .wrap_gift .main-gift{
+            /* height: 220px; */
+        }
+        .wrap_gift .gift-content {
+            padding: 10px;
+            /* margin-top: -110px; */
+        }
+        .wrap_gift img.congrats {
+            /* width: 175px; */
+            /*margin-top: -260px;*/
+        }
+        .wrap_gift .gift-content h3 {
+            text-transform: uppercase;
+            color: #D02149;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 21px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .wrap_gift .gift-content .btn-open, .wrap_gift .gift-content .btn-open:hover, .wrap_gift .gift-content .btn-open:focus, .wrap_gift .gift-content .btn-open:visited{
+            font-size: 14px;
+            margin-top: 10px;
+            height: 44px;
+            line-height: 44px;
+            width: 200px;
+        }
+        .wrap_canvas #canvas{
+            max-width: 100%;
+        }
+    }
+
+    /* Smartphones (landscape) ----------- */
+    @media only screen and (min-width : 321px) {
+    /* Styles */
+    }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+
+        html body .content.app-content.result{
+            padding-bottom: 80px;
+            background-size: 160% !important;
+        }
+        html body .content.app-content{
+            padding-bottom: 50px;
+            background-size: 200% !important;
+        }
+        .logo{
+            height: 65px;
+        }
+        .top_banner{
+            margin-top: 10px;
+        }
+        .wrap_gift .main-gift{
+            /* height: 200px; */
+        }
+        .wrap_gift .gift-content {
+            padding: 10px;
+        }
+        .wrap_gift img.congrats {
+            width: 200px;
+            /*margin-top: -230px;*/
+        }
+        .wrap_gift .gift-content h3 {
+            text-transform: uppercase;
+            color: #D02149;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 21px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+        .wrap_gift .gift-content .btn-open, .wrap_gift .gift-content .btn-open:hover, .wrap_gift .gift-content .btn-open:focus, .wrap_gift .gift-content .btn-open:visited{
+            font-size: 14px;
+            margin-top: 10px;
+            height: 44px;
+            line-height: 44px;
+            width: 200px;
+        }
+        .wrap_canvas #canvas{
+            max-width: 320px;
+            max-width: 100% !important;
+        }
+    }
+
+    /* iPads (portrait and landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+        html body .content.app-content.result{
+            padding-bottom: 200px;
+            background-size: 150% !important;
+        }
+        html body .content.app-content{
+            padding-bottom: 200px;
+            background-size: 150% !important;
+            background: url(../images/footer-spin.png) no-repeat left -150px bottom 0px;
+        }
+        .wrap_gift .main-gift{
+            /* height: 340px; */
+        }
+        .wrap_gift img.congrats{
+            width: 255px;
+        }
+    }
+
+    /* iPads (landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    /* Styles */
+
+    }
+
+    /* iPads (portrait) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    /* Styles */
+    }
+    /**********
+    iPad 3
+    **********/
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+
+    }
+
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    }
+    /* Desktops and laptops ----------- */
+    @media only screen  and (min-width : 1224px) {
+
+    }
+
+    /* Large screens ----------- */
+    @media only screen  and (min-width : 1824px) {
+
+    }
+
+    /* iPhone 4 ----------- */
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    }
+
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    }
+
+    /* iPhone 5 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+        /* iphone 5 xoay ngang man hinh */
+        .top_banner img{
+            max-width: 320px;
+        }
+        .wrap_canvas #canvas{
+            max-width: 100%;
+        }
+        html body .content.app-content{
+            padding-bottom: 100px;
+            background-size: 125% !important;
+        }
+        html body .content.app-content{
+            padding-bottom: 130px;
+            background-size: 105% !important;
+            background: url(../images/footer-spin.png) no-repeat left 25px bottom;
+        }
+        .wrap_gift .main-gift{
+            /* height: 200px; */
+        }
+        .wrap_gift .gift-content {
+            padding: 10px 0;
+        }
+        .wrap_gift img.congrats {
+            width: 160px;
+            margin-top: -15px;
+        }
+        .wrap_gift .gift-content h3 {
+            text-transform: uppercase;
+            color: #D02149;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 21px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .wrap_gift .gift-content .btn-open, .wrap_gift .gift-content .btn-open:hover, .wrap_gift .gift-content .btn-open:focus, .wrap_gift .gift-content .btn-open:visited{
+            font-size: 14px;
+            margin-top: 10px;
+            height: 44px;
+            line-height: 44px;
+            width: 200px;
+        }
+        .wrap_gift .gift-content p.hash_code{
+            max-width: 320px;
+        }
+
+        .wrap_canvas #canvas{
+            max-width: 100%;
+        }
+    }
+
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+        .btn-your-gift{
+            position: absolute;
+            right: 12px;
+            width: 72px;
+            bottom: 62px;
+        }
+        /* Styles */
+    }
+
+    /* iPhone 6, 7, 8 ----------- */
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+
+    }
+
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+
+    }
+
+    /* iPhone 6+, 7+, 8+ ----------- */
+    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+
+    }
+
+    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+
+    /* iPhone X ----------- */
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles xoay ngang */
+
+    }
+
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* 6+,7+,8+,iPhone X xoay dọc*/
+        html body .content.app-content.result {
+            padding-bottom: 100px;
+            background-size: 200% !important;
+        }
+        .wrap_canvas #canvas{
+            max-width: 100%;
+        }
+        .content-wrapper{
+            padding-bottom: 0;
+        }
+    }
+
+    /* iPhone XS Max, XR ----------- */
+    @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* 6+,7+,8+, iPhone XS Max, XR, galaxy s5 xoay ngang */
+        .top_banner img{
+            max-width: 320px ;
+        }
+        .wrap_canvas #canvas{
+            max-width: 100%;
+        }
+        html body .content.app-content{
+            padding-bottom: 150px;
+            background-size: 125% !important;
+            background: url(../images/footer-spin.png) no-repeat left -20px bottom -20px;
+        }
+        html body .content.app-content.result{
+            padding-bottom: 120px;
+            background-size: 110% !important;
+        }
+        .wrap_gift .main-gift{
+            /* height: 220px; */
+        }
+        .wrap_gift .gift-content {
+            padding: 10px 0;
+        }
+        .wrap_gift img.congrats {
+            width: 175px;
+            margin-top: -10px;
+        }
+        .wrap_gift .gift-content h3 {
+            text-transform: uppercase;
+            color: #D02149;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 21px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .wrap_gift .gift-content .btn-open, .wrap_gift .gift-content .btn-open:hover, .wrap_gift .gift-content .btn-open:focus, .wrap_gift .gift-content .btn-open:visited{
+            font-size: 14px;
+            margin-top: 10px;
+            height: 44px;
+            line-height: 44px;
+            width: 200px;
+        }
+        .wrap_gift .gift-content p.hash_code{
+            max-width: 320px;
+        }
+    }
+
+    @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* 6+,7+,8+ xoay doc */
+
+    }
+
+    /* Samsung Galaxy S3 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+
+    }
+
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+
+    /* Samsung Galaxy S4 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+
+    /* Samsung Galaxy S5 ----------- */
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* galaxy s5 xoay xoay ngang */
+
+    }
+
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* galaxy s5 xoay dọc*/
+
+    }
